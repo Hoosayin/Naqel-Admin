@@ -1,0 +1,52 @@
+{
+  "name": "naqel",
+  "version": "0.0.0",
+  "description": "Client",
+  "private": true,
+  "author": {
+    "name": "Hussain Naeem"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^2.0.0-beta.6",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.5.0",
+    "axios": "^0.19.0",
+    "firebase": "^7.14.6",
+    "gh-pages": "^2.2.0",
+    "iso-3166-country-list": "^0.1.2",
+    "jquery": "^3.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.25.3",
+    "node-geocoder": "^3.27.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-geocode": "^0.2.1",
+    "react-google-autocomplete": "^1.1.2",
+    "react-google-maps": "^9.4.5",
+    "react-places-autocomplete": "^7.2.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "react-to-print": "^2.7.0",
+    "utf8": "^3.0.0",
+    "uuid-v4": "^0.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

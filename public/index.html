@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="./lib/bootstrap/dist/css/winstrap.css" />
+    <link rel="stylesheet" href="./css/site.css" />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./css/bot_window.css" />
+    <link rel="stylesheet" href="./css/aos.css" />
+    <link rel="stylesheet" href="./css/hover.css" />
+    <link rel="stylesheet" href="./css/side_navigation.css" />
+    <link rel="stylesheet" href="./css/hover-min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous" />
+
+    <title>Naqel Admin</title>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_U_2NzdPIL7TWb8ECBHWO1eROR2yrebI&libraries=places"></script>
+</head>
+
+<body>
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-messaging.js"></script>
+
+    <div id="root" data-scroll="smooth">
+    </div>
+
+    <script src="./lib/jquery/dist/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+            crossorigin="anonymous"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="></script>
+
+    <script src="./lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function () {
+            $("#slider").responsiveSlides({
+                speed: 800
+            });
+        });
+        $(function () {
+            $("#event-slider").responsiveSlides({
+                speed: 50
+            });
+        });
+    </script>
+
+    <script>
+        $(function () {
+            var backToTop = $('.back-to-top'),
+                threshold = 1 * $(window).height();
+
+            // Displayed when we've scrolled 2x the viewport height
+            if (backToTop.length === 0 ||
+                $(document).height() < threshold) {
+                return;
+            }
+
+            backToTop.affix({
+                offset: {
+                    top: threshold
+                }
+            });
+
+            // Smooth scroll to top
+            backToTop.click(function () {
+                $('html, body').animate({ scrollTop: 0 }, {
+                    duration: 750,
+                    easing: 'swing'
+                });
+
+                return false; // prevent default href
+            });
+        });
+    </script>
+</body>
+
+</html>

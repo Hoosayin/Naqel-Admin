@@ -1,0 +1,64 @@
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: -250px;
+    background-color: #DFDFDF;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.3s;
+    box-shadow: 0 0 100px 5px rgba(0,0,0,0.5);
+}
+
+    .sidenav a {
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        cursor: pointer;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover {
+            color: #008575;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+.side-nav-btn {
+    position: fixed;
+    z-index: 10;
+    left: 30px;
+    bottom: 40px;
+    background-color: #008575;
+    color: #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    padding: 12px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    cursor: pointer;
+    display: block;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}

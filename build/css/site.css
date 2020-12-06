@@ -1,0 +1,59 @@
+﻿.color-default {
+    color: #008575;
+}
+
+.color-light {
+    color: #E5E5E5;
+}
+
+.color-danger {
+    color: #D75A4A;
+}
+
+.back-color-default {
+    background-color: #008575;
+}
+
+
+.back-color-danger {
+    background-color: #D75A4A;
+}
+
+.back-color-golden {
+    background-color: #FFBF15;
+}
+
+.back-color-light {
+    background-color: #FEFEFE;
+}
+
+.back-color-gray {
+    background-color: #E5E5E5;
+}
+
+.color-none {
+    color: transparent;
+}
+
+.back-color-none {
+    background: transparent;
+}
+
+.back-color-alt {
+    background-color: #333333;
+}
+
+.tabs-light {
+    padding: 10px;
+    background-color: #EFEFEF;
+    width: 100%;
+    margin: 0px;
+}
+
+.back-color-gradient {
+    background: linear-gradient(to right bottom, #008575, #005162);
+}
+
+.tab-animate {
+    transition: 0.3s;
+}

@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "naqel-transport-jobs",
+    "naqel": "naqel-transport-jobs"
+  }
+}
